@@ -1,0 +1,12 @@
+{
+	"ext": "js,json,txt",
+	"ignore": [
+		".git",
+		"node_modules",
+		"solutions/template"
+	],
+	"watch": [
+		"src",
+		"solutions"
+	]
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+count=$(find . -type d -path "**/day-*" -printf '.' | wc -m)
+let count=count+1
+
+cp -r solutions/template "solutions/day-${count}"

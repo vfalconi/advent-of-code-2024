@@ -1,0 +1,18 @@
+{
+	"name": "advent-of-code-2024",
+	"version": "2024-12-01-alpha",
+	"description": "[https://adventofcode.com/](https://adventofcode.com/)",
+	"main": "src/index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node src/index",
+		"start:sample": "DIFFICULTY=sample npm run start",
+		"start:new": "bash bin/setup && npm run start"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	}
+}
